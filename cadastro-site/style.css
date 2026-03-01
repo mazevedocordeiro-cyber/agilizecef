@@ -1,0 +1,123 @@
+/* ================= RESET ================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* ================= BODY ================= */
+body {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #0a3d91, #1565c0);
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================= HEADER ================= */
+#topo {
+  background: #0a2f6d;
+  color: white;
+  text-align: center;
+  padding: 12px;
+}
+
+.titulo-site {
+  font-size: 20px;
+}
+
+/* ================= MAIN ================= */
+#conteudo-principal {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ================= SEÇÃO ================= */
+.secao-cadastro {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ================= BLOCO FORM ================= */
+.bloco-formulario {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 320px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ================= HEADER FORM ================= */
+.form-header h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #0a3d91;
+}
+
+/* ================= CAMPOS ================= */
+.campo {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+/* ================= BOTÃO ================= */
+.campo-botao {
+  margin-top: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #0a3d91;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  background: #08306b;
+}
+
+/* ================= MENSAGEM ================= */
+.campo-mensagem {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.mensagem-sucesso {
+  color: green;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+/* ================= FOOTER ================= */
+#rodape {
+  background: #0a2f6d;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
